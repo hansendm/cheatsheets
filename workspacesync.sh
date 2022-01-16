@@ -1,5 +1,26 @@
 #!/bin/bash
 
+# Edit workspace-sync.sh and edit your environment's config.
+
+# Place the .sh script in your scripts directory, make note of its path.
+
+# Make it executable:
+
+# chmod +x workspace-sync.sh
+# Add the alias to your bashrc file (run as the user that will be triggering the command; not necessarily root):
+
+# echo alias wssync=\'~/scripts/workspace-sync.sh\' >> ~/.bashrc
+# (adjust the filepath accordingly)
+
+# Refresh the bashrc file without needing to log out:
+
+# . ~/.bashrc
+# Done.
+
+# To trigger it, enter wssync in your cli.
+
+
+
 #database config
 HOST="localhost"
 MASTER_USER="database_user"
